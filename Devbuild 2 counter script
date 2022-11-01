@@ -1,0 +1,22 @@
+extends Label
+
+var coins = 0
+
+func _physics_process(delta):
+	text = String(coins)
+
+
+func _on_Nest_coin_collected():
+	coins = coins + 1
+
+
+func _on_Nest2_coin_collected():
+	coins = coins + 1
+
+
+func _on_Nest3_coin_collected():
+	coins = coins + 1
+
+
+func _on_Nest4_coin_collected():
+	coins = coins + 1
